@@ -76,5 +76,12 @@ A custom desinged Classifier built with Multinomial Naive Bayes is used for pred
   src="(https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/homepage3.png)"
   alt="Home Page_3"
   title="Home Page"/>
+<img
+  src="(https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/classifier_disaster.jpeg)"
+  alt="Home Page_3"
+  title="Home Page"/>
 
- 
+<img
+  src="( https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/classifier_not_disaster.jpeg)"
+  alt="Home Page_3"
+  title="Home Page"/>
