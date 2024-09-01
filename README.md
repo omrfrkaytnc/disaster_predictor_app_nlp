@@ -14,7 +14,7 @@ A custom desinged Classifier built with Multinomial Naive Bayes is used for pred
   * Looking at Tweets analyzing the necessary cleaning strategies.  
 
 <img
-  src="https://github.com/Praveen-Samudrala/End-2-End-Disaster-Tweet-Classification-App-NLP/blob/main/images/data1.png"
+  src="https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/data1.png"
   alt="Data_Sample"
   title="Data Sample"/>  
 
@@ -44,17 +44,6 @@ A custom desinged Classifier built with Multinomial Naive Bayes is used for pred
   * Model Experimentation 3
     - Hyperparameter Optimization
 
-  * Evaluation
-
-<img
-  src="https://github.com/Praveen-Samudrala/End-2-End-Disaster-Tweet-Classification-App-NLP/blob/main/images/performance.png"
-  alt="performance"
-  title="performance"/>
-
-<img
-  src="https://github.com/Praveen-Samudrala/End-2-End-Disaster-Tweet-Classification-App-NLP/blob/main/images/performance1.png"
-  alt="performance2"
-  title="performance2"/>
 
 ## 4. Inference function
   * Training a model on whole dataset (X and y) without splitting.
@@ -68,20 +57,20 @@ A custom desinged Classifier built with Multinomial Naive Bayes is used for pred
   title="Home Page"/>
 
 <img
-  src="(https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/homepage2.png)"
+  src="https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/homepage2.png"
   alt="Home Page_2"
   title="Home Page"/>
 
 <img
-  src="(https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/homepage3.png)"
+  src="https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/homepage3.png"
   alt="Home Page_3"
   title="Home Page"/>
 <img
-  src="(https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/classifier_disaster.jpeg)"
+  src="https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/classifier_disaster.jpeg"
   alt="Result_1"
   title="Home Page"/>
 
 <img
-  src="( https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/classifier_not_disaster.jpeg)"
+  src="https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/classifier_not_disaster.jpeg"
   alt="Result_0"
   title="Home Page"/>
