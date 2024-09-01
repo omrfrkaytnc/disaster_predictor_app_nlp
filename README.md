@@ -4,7 +4,7 @@
 
 The Disaster Tweet Claasification Application classifies whether a tweet indicates an occured disaster or not.  
 This Application processess the text removing URLs, HTML Tags, Emojis and other Non-ASCII characters, punctuations and stopwords. Furthermore, the tweets are tokenized, Lemmatized and Encode them as part of Feature Enigneering.  
-A custom desinged Classifier built with Stacking Naive Bayes, Logistic Regression and SVM Classifier is used for prediction.
+A custom desinged Classifier built with Multinomial Naive Bayes is used for prediction.
 
 # Project Planning:
 
@@ -19,20 +19,18 @@ A custom desinged Classifier built with Stacking Naive Bayes, Logistic Regressio
   title="Data Sample"/>  
 
 ## 2. Data Preprocessing  
-  * Lower casing.
-  * Clean with RegExp.
-    - URLs
-    - HTML Tags
-    - Non-Ascii characters.
-    - Emojis.
-  * Remove Punctuations.
-  * Remove Stopwords.
+  * Cleans the input text by removing URLs, special characters, emojis, HTML tags,
+    punctuation, and numbers.
+  * Expands common chat abbreviations into their full forms based on a predefined dictionary.
+  * Converts NLTK part-of-speech tags to WordNet format.
+  * Removing stopwords
   * Lemmatization.
   * Feature Encoding - Experimented with BagofWords and TF-IDF Vectorization.
 
 ## 3. Model Building and Evaluation
   * Model Experimentation 1
     - Support Vector Machines
+    - Logistic Regression
     - Multinomial Naive Bayes
     - Decision Trees
     - Random Forest Classifier
@@ -41,12 +39,10 @@ A custom desinged Classifier built with Stacking Naive Bayes, Logistic Regressio
     - XGBoost
 
   * Model Experimentation 2
-    - Scaling + Logistic Regression
+    - Multinomial Naive Bayes with Count Vectorizer
 
   * Model Experimentation 3
-    - Naive Bayes  \  
-    - Logistic Reg - Logistic -> Output  
-    - SVM Classif  /
+    - Hyperparameter Optimization
 
   * Evaluation
 
@@ -67,36 +63,18 @@ A custom desinged Classifier built with Stacking Naive Bayes, Logistic Regressio
 
 ## 5. Prediction App with Streamlit
 <img
-  src="https://github.com/Praveen-Samudrala/End-2-End-Disaster-Tweet-Classification-App-NLP/blob/main/images/homepage1.png"
+  src="(https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/homepage.jpeg)"
   alt="Home Page_1"
   title="Home Page"/>
 
 <img
-  src="https://github.com/Praveen-Samudrala/End-2-End-Disaster-Tweet-Classification-App-NLP/blob/main/images/homepage2.png"
+  src="(https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/homepage2.png)"
   alt="Home Page_2"
   title="Home Page"/>
 
 <img
-  src="https://github.com/Praveen-Samudrala/End-2-End-Disaster-Tweet-Classification-App-NLP/blob/main/images/homepage3.png"
+  src="(https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/homepage3.png)"
   alt="Home Page_3"
   title="Home Page"/>
 
-<img
-  src="https://github.com/Praveen-Samudrala/End-2-End-Disaster-Tweet-Classification-App-NLP/blob/main/images/result.png"
-  alt="Predictor_1"
-  title="Predictor"/>
-
-  
-## Launch
-Install the dependencies via: 
-```
-pip install -r requirements.txt
-```
-And have Docker installed with Docker Daemon running.
-
-Run the application using:
-
-```
-docker-compose up
-```
-This app was launched on AWS Elastic Beanstalk.
+ 
