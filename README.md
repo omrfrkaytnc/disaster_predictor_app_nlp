@@ -63,7 +63,7 @@ A custom desinged Classifier built with Multinomial Naive Bayes is used for pred
 
 ## 5. Prediction App with Streamlit
 <img
-  src="(https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/homepage.jpeg)"
+  src="https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/homepage.jpeg"
   alt="Home Page_1"
   title="Home Page"/>
 
@@ -78,10 +78,10 @@ A custom desinged Classifier built with Multinomial Naive Bayes is used for pred
   title="Home Page"/>
 <img
   src="(https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/classifier_disaster.jpeg)"
-  alt="Home Page_3"
+  alt="Result_1"
   title="Home Page"/>
 
 <img
   src="( https://github.com/omrfrkaytnc/disaster_predictor_app_nlp/blob/main/images/classifier_not_disaster.jpeg)"
-  alt="Home Page_3"
+  alt="Result_0"
   title="Home Page"/>
